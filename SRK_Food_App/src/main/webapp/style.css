@@ -1,0 +1,81 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(images/bgimg.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 2%;
+    text-align: center;
+    color: #0f2df2;
+    font-family: Cursive;
+}
+h3{
+    font-family: Didot;
+    color: rgb(3, 3, 3);
+}
+
+h2 {
+    text-align: center;
+    color: #ff0000;
+    font-family: Cursive;
+    padding-top: 10px;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    /*background-image: linear-gradient(45deg, rgb(51, 138, 249),rgb(47, 248, 255));*/
+     background-color: rgb(0, 255, 255,0.5);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 0 10px rgba(0, 0, 0, 1.5);
+    z-index: 30;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+input[type="tel"],
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #e00db3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1518de;
+}
+
+.quote {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
